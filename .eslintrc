@@ -1,0 +1,65 @@
+{
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:prettier/recommended"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "project": "./tsconfig.json",
+      "ecmaVersion": 2018,
+      "sourceType": "module",
+      "ecmaFeatures": { "jsx": true }
+    },
+    "plugins": ["react", "@typescript-eslint", "react-hooks"],
+    "settings": {
+      "react": {
+        "createClass": "createReactClass",
+        "pragma": "React",
+        "version": "detect"
+      }
+    },
+    "env": {
+      "browser": true,
+      "jest": true,
+      "node": true
+    },
+    "rules": {
+      "curly": "error",
+      "no-use-before-define": "off",
+      "no-case-declarations": "off",
+      "react/display-name": "off",
+      "@typescript-eslint/no-use-before-define": "off",
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto"
+        }
+      ],
+      "max-len": ["error", { "code": 180, "ignorePattern": "d=\"([\\s\\S]*?)\"" }],
+      "semi": ["error", "always", { "omitLastInOneLineBlock": true }],
+      "sort-imports": [
+        2,
+        {
+          "ignoreCase": false,
+          "ignoreMemberSort": false,
+          "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+        }
+      ],
+      "react/prop-types": 0,
+      "react/jsx-max-props-per-line": [1, { "maximum": 7 }],
+      
+      "object-property-newline": 0,
+      "space-before-function-paren": [
+        "error",
+        {
+          "asyncArrow": "always",
+          "named": "never"
+        }
+      ]
+    },
+    "ignorePatterns": ["*.config.js", "**/*.js"]
+  }
+  
