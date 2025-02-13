@@ -1,8 +1,10 @@
 {
   "expo": {
-    "name": "sample-project",
-    "slug": "sample-project",
+    "name": "seongkeun-uikit",
+    "slug": "seongkeun-uikit",
     "version": "1.0.0",
+    "jsEngine": "hermes",
+    "scheme": "com.sk0606.seongkeunuikit",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -19,7 +21,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.sk0606.seongkeunuikit"
     },
     "web": {
       "favicon": "./assets/favicon.png"
