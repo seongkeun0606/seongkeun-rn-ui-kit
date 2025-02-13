@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "seongkeun-uikit",
+    "name": "UI KIT",
     "slug": "seongkeun-uikit",
     "version": "1.0.0",
     "jsEngine": "hermes",
@@ -27,6 +27,24 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./app/assets/fonts/Pretendard-Thin.ttf",
+            "./app/assets/fonts/Pretendard-ExtraLight.ttf",
+            "./app/assets/fonts/Pretendard-Light.ttf",
+            "./app/assets/fonts/Pretendard-Regular.ttf",
+            "./app/assets/fonts/Pretendard-Medium.ttf",
+            "./app/assets/fonts/Pretendard-SemiBold.ttf",
+            "./app/assets/fonts/Pretendard-Bold.ttf",
+            "./app/assets/fonts/Pretendard-ExtraBold.ttf",
+            "./app/assets/fonts/Pretendard-Black.ttf"
+          ]
+        }
+      ]
+    ]
   }
 }
