@@ -1,13 +1,19 @@
 import { DefaultTheme, MD3Theme, PaperProvider } from 'react-native-paper';
-import React, { useEffect } from 'react';
+import React, { useEffect, useMemo } from 'react';
 
 import CustomDrawerContent from '../components/drawer-contents';
 import { Drawer } from 'expo-router/drawer';
+import { DrawerNavigationOptions } from '@react-navigation/drawer';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import { NativeWindStyleSheet } from 'nativewind';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { SplashScreen } from 'expo-router';
 import { fontConfig } from '../styles/fonts';
 import { useFonts } from 'expo-font';
+
+NativeWindStyleSheet.setOutput({
+  default: 'native',
+});
 
 const theme: MD3Theme = {
   ...DefaultTheme,
@@ -28,7 +34,15 @@ const Layout: React.FC = () => {
     PretendardSemiBold: require('../assets/fonts/Pretendard-SemiBold.ttf'),
     PretendardThin: require('../assets/fonts/Pretendard-Thin.ttf'),
   });
-
+  const drawerScreenOption = useMemo<DrawerNavigationOptions>(
+    () => ({
+      headerTintColor: theme.colors.primary,
+      drawerItemStyle: { borderRadius: 5 },
+      drawerActiveTintColor: '#FFFFFF',
+      drawerActiveBackgroundColor: theme.colors.primary,
+    }),
+    [],
+  );
   // lifecycle
   useEffect(() => {
     if (loaded || error) {
@@ -44,8 +58,8 @@ const Layout: React.FC = () => {
     <GestureHandlerRootView>
       <PaperProvider theme={theme}>
         <SafeAreaProvider>
-          <Drawer screenOptions={{ headerShown: true }} drawerContent={CustomDrawerContent}>
-            <Drawer.Screen name="index" />
+          <Drawer screenOptions={drawerScreenOption} drawerContent={CustomDrawerContent}>
+            <Drawer.Screen name="index" options={{ title: 'About Project', drawerLabel: 'About' }} />
             <Drawer.Screen name="home" />
           </Drawer>
         </SafeAreaProvider>

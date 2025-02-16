@@ -28,6 +28,7 @@
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="com.sk0606.seongkeunuikit"/>
         <data android:scheme="com.sk0606.seongkeunuikit"/>
+        <data android:scheme="exp+seongkeun-uikit"/>
       </intent-filter>
     </activity>
   </application>

@@ -7,49 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00327C2223DC33DBC1ECEA15 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 7AB48FCEB13478B442D20AC7 /* PrivacyInfo.xcprivacy */; };
+		07C3E99E73AF46FD96CA9F14 /* Pretendard-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0D9A5488E614CCE9EBA8576 /* Pretendard-ExtraLight.ttf */; };
+		0C364051E21C48F3B4C5B66C /* Pretendard-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBBE5964C1D54B62BBC362FD /* Pretendard-Thin.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		163BEA3629E94687AC38296B /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CFE4E20840D4BCA97D62402 /* Pretendard-SemiBold.ttf */; };
-		2F02FC8CDEC3453D9D6F8702 /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFF94AE74FE14DF7AE9377CB /* Pretendard-Regular.ttf */; };
-		3AAE6A5A8DD544ECBD7BE7D2 /* Pretendard-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 024C486D321243AB9AFA0E26 /* Pretendard-Light.ttf */; };
+		32EEE8183A554B4EBAFB67DC /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A581DC2C8FE84DDE8526B180 /* Pretendard-Bold.ttf */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		70DECCD93CD449B685D4D9A1 /* Pretendard-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1830C9E1DE73438E9B651943 /* Pretendard-Black.ttf */; };
-		7A2A20247C294FE9B3C64143 /* Pretendard-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A274B619F924D66AC096847 /* Pretendard-ExtraBold.ttf */; };
-		80C00AD378904035A526EB4A /* Pretendard-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 841B64993C31405DB48FC141 /* Pretendard-Medium.ttf */; };
-		84B180870A3847688258BE2D /* Pretendard-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E87F0AF6B9154076BFEEA829 /* Pretendard-ExtraLight.ttf */; };
-		8F25FCE0FA10483F96482908 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2532B4F22CE64439B441AABD /* noop-file.swift */; };
+		4FE548BC1B92446FB148D314 /* noop-file.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67132F42F1C4CB7BBAF8148 /* noop-file.swift */; };
+		64C17668CFA641EB99D0A130 /* Pretendard-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 647FE6ADC7864881B2F13D51 /* Pretendard-Light.ttf */; };
+		846D2B520BAF41FAA7EAB62C /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E30BF124F53A4195AAEEA012 /* Pretendard-Regular.ttf */; };
 		96905EF65AED1B983A6B3ABC /* libPods-UIKIT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-UIKIT.a */; };
-		A54E820236AF4BF9BDE6E868 /* Pretendard-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F8B6B00A4E54857A2414226 /* Pretendard-Thin.ttf */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
-		BCDA51B01F7DB28661DE8CA2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 5B47788D77D592241B11157B /* PrivacyInfo.xcprivacy */; };
-		E3DEDAAE2FE54C74814BCB3E /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 463890F02DC24EEAACD5287F /* Pretendard-Bold.ttf */; };
+		BF47959AB10E42138DA8A1DA /* Pretendard-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 131FD19D215D4375B2C89932 /* Pretendard-Black.ttf */; };
+		ECF63B3B4E384D75B00A1486 /* Pretendard-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B9B268651864CCFBFF6311E /* Pretendard-ExtraBold.ttf */; };
+		F7F7B2A350B544EF923C1888 /* Pretendard-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AD8034012C24ADAACBBAE23 /* Pretendard-Medium.ttf */; };
+		FD8E3B45A7544D3FA988A7E7 /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7351CFFDB4CD4BAA86029AEB /* Pretendard-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		024C486D321243AB9AFA0E26 /* Pretendard-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Light.ttf"; path = "../app/assets/fonts/Pretendard-Light.ttf"; sourceTree = "<group>"; };
-		0CFE4E20840D4BCA97D62402 /* Pretendard-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-SemiBold.ttf"; path = "../app/assets/fonts/Pretendard-SemiBold.ttf"; sourceTree = "<group>"; };
-		0F8B6B00A4E54857A2414226 /* Pretendard-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Thin.ttf"; path = "../app/assets/fonts/Pretendard-Thin.ttf"; sourceTree = "<group>"; };
+		131FD19D215D4375B2C89932 /* Pretendard-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Black.ttf"; path = "../src/assets/fonts/Pretendard-Black.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* UIKIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = UIKIT/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = UIKIT/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = UIKIT/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = UIKIT/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = UIKIT/main.m; sourceTree = "<group>"; };
-		1830C9E1DE73438E9B651943 /* Pretendard-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Black.ttf"; path = "../app/assets/fonts/Pretendard-Black.ttf"; sourceTree = "<group>"; };
-		2532B4F22CE64439B441AABD /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "UIKIT/noop-file.swift"; sourceTree = "<group>"; };
-		463890F02DC24EEAACD5287F /* Pretendard-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Bold.ttf"; path = "../app/assets/fonts/Pretendard-Bold.ttf"; sourceTree = "<group>"; };
+		3AD8034012C24ADAACBBAE23 /* Pretendard-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Medium.ttf"; path = "../src/assets/fonts/Pretendard-Medium.ttf"; sourceTree = "<group>"; };
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-UIKIT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIKIT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B47788D77D592241B11157B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = UIKIT/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		647FE6ADC7864881B2F13D51 /* Pretendard-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Light.ttf"; path = "../src/assets/fonts/Pretendard-Light.ttf"; sourceTree = "<group>"; };
 		6C2E3173556A471DD304B334 /* Pods-UIKIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKIT.debug.xcconfig"; path = "Target Support Files/Pods-UIKIT/Pods-UIKIT.debug.xcconfig"; sourceTree = "<group>"; };
+		7351CFFDB4CD4BAA86029AEB /* Pretendard-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-SemiBold.ttf"; path = "../src/assets/fonts/Pretendard-SemiBold.ttf"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-UIKIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIKIT.release.xcconfig"; path = "Target Support Files/Pods-UIKIT/Pods-UIKIT.release.xcconfig"; sourceTree = "<group>"; };
-		841B64993C31405DB48FC141 /* Pretendard-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Medium.ttf"; path = "../app/assets/fonts/Pretendard-Medium.ttf"; sourceTree = "<group>"; };
-		9A274B619F924D66AC096847 /* Pretendard-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-ExtraBold.ttf"; path = "../app/assets/fonts/Pretendard-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7AB48FCEB13478B442D20AC7 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = UIKIT/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		8B9B268651864CCFBFF6311E /* Pretendard-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-ExtraBold.ttf"; path = "../src/assets/fonts/Pretendard-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A581DC2C8FE84DDE8526B180 /* Pretendard-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Bold.ttf"; path = "../src/assets/fonts/Pretendard-Bold.ttf"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = UIKIT/SplashScreen.storyboard; sourceTree = "<group>"; };
+		B67132F42F1C4CB7BBAF8148 /* noop-file.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "noop-file.swift"; path = "UIKIT/noop-file.swift"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		CFF94AE74FE14DF7AE9377CB /* Pretendard-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Regular.ttf"; path = "../app/assets/fonts/Pretendard-Regular.ttf"; sourceTree = "<group>"; };
-		E87F0AF6B9154076BFEEA829 /* Pretendard-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-ExtraLight.ttf"; path = "../app/assets/fonts/Pretendard-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CBBE5964C1D54B62BBC362FD /* Pretendard-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Thin.ttf"; path = "../src/assets/fonts/Pretendard-Thin.ttf"; sourceTree = "<group>"; };
+		E0D9A5488E614CCE9EBA8576 /* Pretendard-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-ExtraLight.ttf"; path = "../src/assets/fonts/Pretendard-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E30BF124F53A4195AAEEA012 /* Pretendard-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Pretendard-Regular.ttf"; path = "../src/assets/fonts/Pretendard-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-UIKIT/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,10 +76,27 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				2532B4F22CE64439B441AABD /* noop-file.swift */,
-				5B47788D77D592241B11157B /* PrivacyInfo.xcprivacy */,
+				B67132F42F1C4CB7BBAF8148 /* noop-file.swift */,
+				7AB48FCEB13478B442D20AC7 /* PrivacyInfo.xcprivacy */,
 			);
 			name = UIKIT;
+			sourceTree = "<group>";
+		};
+		2A4B905CB5B7496BADB35BA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBBE5964C1D54B62BBC362FD /* Pretendard-Thin.ttf */,
+				E0D9A5488E614CCE9EBA8576 /* Pretendard-ExtraLight.ttf */,
+				647FE6ADC7864881B2F13D51 /* Pretendard-Light.ttf */,
+				E30BF124F53A4195AAEEA012 /* Pretendard-Regular.ttf */,
+				3AD8034012C24ADAACBBAE23 /* Pretendard-Medium.ttf */,
+				7351CFFDB4CD4BAA86029AEB /* Pretendard-SemiBold.ttf */,
+				A581DC2C8FE84DDE8526B180 /* Pretendard-Bold.ttf */,
+				8B9B268651864CCFBFF6311E /* Pretendard-ExtraBold.ttf */,
+				131FD19D215D4375B2C89932 /* Pretendard-Black.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -89,23 +106,6 @@
 				58EEBF8E8E6FB1BC6CAF49B5 /* libPods-UIKIT.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		650D96590CC544B3BCD50B06 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0F8B6B00A4E54857A2414226 /* Pretendard-Thin.ttf */,
-				E87F0AF6B9154076BFEEA829 /* Pretendard-ExtraLight.ttf */,
-				024C486D321243AB9AFA0E26 /* Pretendard-Light.ttf */,
-				CFF94AE74FE14DF7AE9377CB /* Pretendard-Regular.ttf */,
-				841B64993C31405DB48FC141 /* Pretendard-Medium.ttf */,
-				0CFE4E20840D4BCA97D62402 /* Pretendard-SemiBold.ttf */,
-				463890F02DC24EEAACD5287F /* Pretendard-Bold.ttf */,
-				9A274B619F924D66AC096847 /* Pretendard-ExtraBold.ttf */,
-				1830C9E1DE73438E9B651943 /* Pretendard-Black.ttf */,
-			);
-			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -124,7 +124,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
-				650D96590CC544B3BCD50B06 /* Resources */,
+				2A4B905CB5B7496BADB35BA7 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -181,13 +181,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "UIKIT" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				F81F7E9E5BEC8C991A1A725D /* [Expo] Configure project */,
+				ACCD1C25F24038C753C8C620 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				81598575F200C2EA2B24DCAE /* [CP] Embed Pods Frameworks */,
+				B1A6425BE3DF15686E063F82 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,16 +237,16 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				A54E820236AF4BF9BDE6E868 /* Pretendard-Thin.ttf in Resources */,
-				84B180870A3847688258BE2D /* Pretendard-ExtraLight.ttf in Resources */,
-				3AAE6A5A8DD544ECBD7BE7D2 /* Pretendard-Light.ttf in Resources */,
-				2F02FC8CDEC3453D9D6F8702 /* Pretendard-Regular.ttf in Resources */,
-				80C00AD378904035A526EB4A /* Pretendard-Medium.ttf in Resources */,
-				163BEA3629E94687AC38296B /* Pretendard-SemiBold.ttf in Resources */,
-				E3DEDAAE2FE54C74814BCB3E /* Pretendard-Bold.ttf in Resources */,
-				7A2A20247C294FE9B3C64143 /* Pretendard-ExtraBold.ttf in Resources */,
-				70DECCD93CD449B685D4D9A1 /* Pretendard-Black.ttf in Resources */,
-				BCDA51B01F7DB28661DE8CA2 /* PrivacyInfo.xcprivacy in Resources */,
+				0C364051E21C48F3B4C5B66C /* Pretendard-Thin.ttf in Resources */,
+				07C3E99E73AF46FD96CA9F14 /* Pretendard-ExtraLight.ttf in Resources */,
+				64C17668CFA641EB99D0A130 /* Pretendard-Light.ttf in Resources */,
+				846D2B520BAF41FAA7EAB62C /* Pretendard-Regular.ttf in Resources */,
+				F7F7B2A350B544EF923C1888 /* Pretendard-Medium.ttf in Resources */,
+				FD8E3B45A7544D3FA988A7E7 /* Pretendard-SemiBold.ttf in Resources */,
+				32EEE8183A554B4EBAFB67DC /* Pretendard-Bold.ttf in Resources */,
+				ECF63B3B4E384D75B00A1486 /* Pretendard-ExtraBold.ttf in Resources */,
+				BF47959AB10E42138DA8A1DA /* Pretendard-Black.ttf in Resources */,
+				00327C2223DC33DBC1ECEA15 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +304,8 @@
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/React-Core_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact/React-cxxreact_privacy.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/boost/boost_privacy.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-launcher/EXDevLauncher.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/expo-dev-menu/EXDevMenu.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/glog/glog_privacy.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -315,6 +317,8 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-Core_privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/React-cxxreact_privacy.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/boost_privacy.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevLauncher.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EXDevMenu.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/glog_privacy.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,25 +326,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIKIT/Pods-UIKIT-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		81598575F200C2EA2B24DCAE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UIKIT/Pods-UIKIT-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIKIT/Pods-UIKIT-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F81F7E9E5BEC8C991A1A725D /* [Expo] Configure project */ = {
+		ACCD1C25F24038C753C8C620 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -359,6 +345,24 @@
 			shellPath = /bin/sh;
 			shellScript = "# This script configures Expo modules and generates the modules provider file.\nbash -l -c \"./Pods/Target\\ Support\\ Files/Pods-UIKIT/expo-configure-project.sh\"\n";
 		};
+		B1A6425BE3DF15686E063F82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UIKIT/Pods-UIKIT-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UIKIT/Pods-UIKIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -369,7 +373,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */,
-				8F25FCE0FA10483F96482908 /* noop-file.swift in Sources */,
+				4FE548BC1B92446FB148D314 /* noop-file.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

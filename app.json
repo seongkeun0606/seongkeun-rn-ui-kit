@@ -33,15 +33,15 @@
         "expo-font",
         {
           "fonts": [
-            "./app/assets/fonts/Pretendard-Thin.ttf",
-            "./app/assets/fonts/Pretendard-ExtraLight.ttf",
-            "./app/assets/fonts/Pretendard-Light.ttf",
-            "./app/assets/fonts/Pretendard-Regular.ttf",
-            "./app/assets/fonts/Pretendard-Medium.ttf",
-            "./app/assets/fonts/Pretendard-SemiBold.ttf",
-            "./app/assets/fonts/Pretendard-Bold.ttf",
-            "./app/assets/fonts/Pretendard-ExtraBold.ttf",
-            "./app/assets/fonts/Pretendard-Black.ttf"
+            "./src/assets/fonts/Pretendard-Thin.ttf",
+            "./src/assets/fonts/Pretendard-ExtraLight.ttf",
+            "./src/assets/fonts/Pretendard-Light.ttf",
+            "./src/assets/fonts/Pretendard-Regular.ttf",
+            "./src/assets/fonts/Pretendard-Medium.ttf",
+            "./src/assets/fonts/Pretendard-SemiBold.ttf",
+            "./src/assets/fonts/Pretendard-Bold.ttf",
+            "./src/assets/fonts/Pretendard-ExtraBold.ttf",
+            "./src/assets/fonts/Pretendard-Black.ttf"
           ]
         }
       ]

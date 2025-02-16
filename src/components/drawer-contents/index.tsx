@@ -34,7 +34,7 @@ const CustomDrawerContent: React.FC<Props> = (props) => {
   return (
     <View className="flex-1">
       <DrawerContentScrollView {...props}>
-        <View className="flex-row bg-blue-100 items-center p-4">
+        <View className="flex-row items-center p-4">
           <Image style={styles.image} source={require('../../assets/images/profile-image.png')} />
           <View style={styles.profile_info}>
             <Text style={nameStyle}>오성근</Text>
