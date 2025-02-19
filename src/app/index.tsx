@@ -1,14 +1,11 @@
-import AnimationTypingText from '../components/animation-text';
+import AnimationTypingText from 'root/components/animation-text';
 import React from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { View } from 'react-native';
 
 const AboutLayout: React.FC = () => {
   return (
-    <SafeAreaView className="flex-1 bg-white items-center">
-      <View className="flex-1 justify-start">
-        <AnimationTypingText text={aboutText} />
-      </View>
+    <SafeAreaView className="flex-1 bg-white items-center p-4">
+      <AnimationTypingText text={aboutText} />
     </SafeAreaView>
   );
 };

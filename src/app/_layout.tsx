@@ -61,6 +61,7 @@ const Layout: React.FC = () => {
           <Drawer screenOptions={drawerScreenOption} drawerContent={CustomDrawerContent}>
             <Drawer.Screen name="index" options={{ title: 'About Project', drawerLabel: 'About' }} />
             <Drawer.Screen name="home" />
+            <Drawer.Screen name="progress" options={{ title: 'Progress Indicator', drawerLabel: 'Progress Indicator' }} />
           </Drawer>
         </SafeAreaProvider>
       </PaperProvider>

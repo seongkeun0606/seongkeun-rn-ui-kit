@@ -1,11 +1,8 @@
-import { Text, View } from 'react-native';
-
 import React from 'react';
+import { View } from 'react-native';
 
-export default function Setting() {
-  return (
-    <View>
-      <Text>Setting</Text>
-    </View>
-  );
-}
+const HomeLayout: React.FC = () => {
+  return <View style={{ flex: 1, justifyContent: 'center', padding: 12 }}></View>;
+};
+
+export default HomeLayout;

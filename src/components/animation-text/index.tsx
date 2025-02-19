@@ -1,7 +1,7 @@
 import Animated, { useAnimatedStyle, useSharedValue, withRepeat, withSequence, withTiming } from 'react-native-reanimated';
 import React, { useEffect, useMemo, useRef } from 'react';
 import { StyleProp, TextStyle, View, ViewStyle } from 'react-native';
-import { Text, useTheme } from 'react-native-paper';
+import { ProgressBar, Text, useTheme } from 'react-native-paper';
 
 interface Props {
   text: string;
@@ -22,19 +22,19 @@ const AnimationTypingText: React.FC<Props> = ({ text, textStyle, wrapperStyle })
     () => ({
       ...theme.fonts.titleMedium,
     }),
-    [],
+    [currentIndex],
   );
 
   // lifecycle
   useEffect(() => {
     timeoutRef.current = setInterval(() => {
       setCurrentIndex((prev) => prev + 1);
-    }, 20);
+    }, 30);
 
     if (currentIndex === text.length) {
       clearInterval(timeoutRef.current as NodeJS.Timeout);
     }
-    cursorOpacity.value = withRepeat(withSequence(withTiming(0, { duration: 500 }), withTiming(1, { duration: 500 })), -1, true);
+    cursorOpacity.value = withRepeat(withSequence(withTiming(0, { duration: 400 }), withTiming(1, { duration: 400 })), -1, true);
 
     return () => {
       clearInterval(timeoutRef.current as NodeJS.Timeout);
