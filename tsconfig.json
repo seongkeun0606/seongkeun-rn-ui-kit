@@ -9,7 +9,10 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "strict": true,
-    "types": ["node", "@styled/typescript-styled-plugin"]
+    "types": ["node", "@styled/typescript-styled-plugin"],
+    "paths": {
+      "root/*": ["./src/*"]
+    }
   },
   "extends": "expo/tsconfig.base"
 }
