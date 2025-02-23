@@ -1,5 +1,6 @@
 import { DefaultTheme, MD3Theme, PaperProvider } from 'react-native-paper';
 import React, { useEffect, useMemo } from 'react';
+import { ReanimatedLogLevel, configureReanimatedLogger } from 'react-native-reanimated';
 
 import CustomDrawerContent from '../components/drawer-contents';
 import { Drawer } from 'expo-router/drawer';
@@ -22,6 +23,12 @@ const theme: MD3Theme = {
     ...fontConfig,
   },
 };
+
+configureReanimatedLogger({
+  level: ReanimatedLogLevel.warn,
+  strict: false,
+});
+
 SplashScreen.preventAutoHideAsync();
 const Layout: React.FC = () => {
   const [loaded, error] = useFonts({
@@ -60,7 +67,7 @@ const Layout: React.FC = () => {
         <SafeAreaProvider>
           <Drawer screenOptions={drawerScreenOption} drawerContent={CustomDrawerContent}>
             <Drawer.Screen name="index" options={{ title: 'About Project', drawerLabel: 'About' }} />
-            <Drawer.Screen name="home" />
+            <Drawer.Screen name="home" options={{ swipeEnabled: false }} />
             <Drawer.Screen name="progress" options={{ title: 'Progress Indicator', drawerLabel: 'Progress Indicator' }} />
           </Drawer>
         </SafeAreaProvider>
