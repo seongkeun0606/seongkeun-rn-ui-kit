@@ -1,14 +1,12 @@
 import AnimationTypingText from 'root/components/animation-text';
 import React from 'react';
-import { Redirect } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 const AboutLayout: React.FC = () => {
   return (
-    <Redirect href={'./home'} />
-    // <SafeAreaView className="flex-1 bg-white items-center p-4">
-    //   <AnimationTypingText text={aboutText} />
-    // </SafeAreaView>
+    <SafeAreaView className="flex-1 bg-white items-center p-4">
+      <AnimationTypingText text={aboutText} />
+    </SafeAreaView>
   );
 };
 
