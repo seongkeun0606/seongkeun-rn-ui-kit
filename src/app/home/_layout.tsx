@@ -1,8 +1,10 @@
 import { List, Text, useTheme } from 'react-native-paper';
 
+import ExpandableButtons from 'root/components/expanded-iconbutton/Buttons';
 import ExpandedAccordion from 'root/components/expanded-accordion';
 import React from 'react';
 import Slider from 'root/components/slider/Slider';
+import VectorIcons from 'root/components/vector-icons';
 import { View } from 'react-native';
 
 const HomeLayout: React.FC = () => {
@@ -18,6 +20,98 @@ const HomeLayout: React.FC = () => {
       <Text className="text-xl font-bold">Slider</Text>
       <View className="h-4" />
       <SliderWithLabel />
+      <View className="h-4" />
+      <Text className="text-xl font-bold">Expandable Button</Text>
+      <View className="justify-end items-center">
+        <Text>direction: right</Text>
+        <ExpandableButtons
+          direction="RIGHT"
+          mainButton={{
+            icon: () => <VectorIcons name="plus" color="white" iconSource={'MaterialCommunityIcons'} />,
+            size: 25,
+          }}
+          expandableButtons={[
+            {
+              icon: 'minus',
+              bgColor: 'white',
+              iconColor: 'black',
+              size: 20,
+            },
+            {
+              icon: 'minus',
+              bgColor: 'white',
+              iconColor: 'black',
+              size: 20,
+            },
+            {
+              icon: 'minus',
+              bgColor: 'white',
+              iconColor: 'black',
+              size: 20,
+            },
+          ]}
+        />
+      </View>
+      <View className="justify-end items-center">
+        <Text>direction: left</Text>
+        <ExpandableButtons
+          direction="LEFT"
+          mainButton={{
+            icon: () => <VectorIcons name="plus" color="white" iconSource={'MaterialCommunityIcons'} />,
+            size: 25,
+          }}
+          expandableButtons={[
+            {
+              icon: 'minus',
+              bgColor: 'white',
+              iconColor: 'black',
+              size: 20,
+            },
+            {
+              icon: 'minus',
+              bgColor: 'white',
+              iconColor: 'black',
+              size: 20,
+            },
+            {
+              icon: 'minus',
+              bgColor: 'white',
+              iconColor: 'black',
+              size: 20,
+            },
+          ]}
+        />
+      </View>
+      <View className="justify-end items-center">
+        <Text>direction: bottom</Text>
+        <ExpandableButtons
+          direction="BOTTOM"
+          mainButton={{
+            icon: () => <VectorIcons name="plus" color="white" iconSource={'MaterialCommunityIcons'} />,
+            size: 25,
+          }}
+          expandableButtons={[
+            {
+              icon: 'minus',
+              bgColor: 'white',
+              iconColor: 'black',
+              size: 20,
+            },
+            {
+              icon: 'minus',
+              bgColor: 'white',
+              iconColor: 'black',
+              size: 20,
+            },
+            {
+              icon: 'minus',
+              bgColor: 'white',
+              iconColor: 'black',
+              size: 20,
+            },
+          ]}
+        />
+      </View>
     </View>
   );
 };

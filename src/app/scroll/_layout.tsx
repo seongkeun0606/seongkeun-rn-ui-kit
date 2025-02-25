@@ -1,5 +1,5 @@
 import Animated, { useAnimatedScrollHandler, useSharedValue } from 'react-native-reanimated';
-import { Divider, List, Text, useTheme } from 'react-native-paper';
+import { Button, Divider, List, Text, useTheme } from 'react-native-paper';
 import React, { useMemo } from 'react';
 
 import ScrollHeader from 'root/components/scroll-header';
@@ -17,8 +17,8 @@ const ScrollLayout: React.FC = () => {
     },
   });
   return (
-    <View style={{ flex: 1, justifyContent: 'center' }}>
-      <ScrollHeader scrollY={scrollY} wrapperStyle={{ padding: 12, backgroundColor: theme.colors.primaryContainer }}>
+    <>
+      <ScrollHeader scrollY={scrollY} wrapperStyle={{ backgroundColor: theme.colors.primaryContainer }}>
         <Text>Scroll Header1</Text>
         <Text>Scroll Header2</Text>
         <Text>Scroll Header3</Text>
@@ -36,10 +36,17 @@ const ScrollLayout: React.FC = () => {
       <Animated.FlatList
         keyExtractor={(_, index) => `src/app/scroll/dummyList_${index}`}
         data={dummyList}
+        stickyHeaderIndices={[0]}
+        ListHeaderComponent={() => (
+          <View style={{ backgroundColor: '#ffffff' }}>
+            <Button>고정 버튼 헤더</Button>
+          </View>
+        )}
         renderItem={(list) => <List.Item title={list.item.title} />}
         ItemSeparatorComponent={() => <Divider />}
+        scrollEventThrottle={8}
         onScroll={onScroll}></Animated.FlatList>
-    </View>
+    </>
   );
 };
 
@@ -47,7 +54,7 @@ export default ScrollLayout;
 
 const getDummyList = () => {
   const list = [];
-  for (let i = 0; i < 200; i++) {
+  for (let i = 0; i < 30; i++) {
     list.push({ key: i, title: `List ${i}` });
   }
   return list;
