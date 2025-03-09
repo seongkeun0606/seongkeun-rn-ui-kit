@@ -1,7 +1,8 @@
 import Animated, { useAnimatedStyle, useSharedValue, withRepeat, withSequence, withTiming } from 'react-native-reanimated';
 import React, { useEffect, useMemo, useRef } from 'react';
 import { StyleProp, TextStyle, View, ViewStyle } from 'react-native';
-import { ProgressBar, Text, useTheme } from 'react-native-paper';
+
+import { useTheme } from 'react-native-paper';
 
 interface Props {
   text: string;

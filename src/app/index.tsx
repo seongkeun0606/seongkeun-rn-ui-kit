@@ -1,14 +1,29 @@
+import React, { useMemo } from 'react';
+
 import AnimationTypingText from 'root/components/animation-text';
-import React from 'react';
-import { Redirect } from 'expo-router';
+import GradientBorderView from 'root/components/gradient-border-view';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { Text } from 'react-native-paper';
+import { TextStyle } from 'react-native';
 
 const AboutLayout: React.FC = () => {
+  const titleStyle = useMemo<TextStyle>(
+    () => ({
+      width: 300,
+      textAlign: 'center',
+      fontSize: 18,
+      fontWeight: 'bold',
+    }),
+    [],
+  );
+
   return (
-    <Redirect href={'./home'} />
-    // <SafeAreaView className="flex-1 bg-white items-center p-4">
-    //   <AnimationTypingText text={aboutText} />
-    // </SafeAreaView>
+    <SafeAreaView className="flex-1 bg-white items-center p-4">
+      <GradientBorderView>
+        <Text style={titleStyle}>UI 연습용 프로젝트</Text>
+      </GradientBorderView>
+      <AnimationTypingText text={aboutText} />
+    </SafeAreaView>
   );
 };
 
