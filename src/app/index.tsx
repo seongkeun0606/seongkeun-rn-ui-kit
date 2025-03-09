@@ -16,6 +16,7 @@ const AboutLayout: React.FC = () => {
     }),
     [],
   );
+
   return (
     <SafeAreaView className="flex-1 bg-white items-center p-4">
       <GradientBorderView>
