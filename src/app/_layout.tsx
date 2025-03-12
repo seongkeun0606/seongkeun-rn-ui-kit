@@ -70,6 +70,7 @@ const Layout: React.FC = () => {
             <Drawer.Screen name="home" options={{ swipeEnabled: false }} />
             <Drawer.Screen name="progress" options={{ title: 'Progress Indicator', drawerLabel: 'Progress Indicator' }} />
             <Drawer.Screen name="scroll" options={{ title: 'Aniamtion Header', drawerLabel: 'Aniamtion Header' }} />
+            <Drawer.Screen name="carousel" options={{ title: 'Carousel', drawerLabel: 'Carousel' }} />
           </Drawer>
         </SafeAreaProvider>
       </PaperProvider>
