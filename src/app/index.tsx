@@ -1,8 +1,7 @@
-import React, { useEffect, useMemo } from 'react';
+import React, { useMemo } from 'react';
 
 import AnimationTypingText from 'root/components/animation-text';
 import GradientBorderView from 'root/components/gradient-border-view';
-import { Redirect } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Text } from 'react-native-paper';
 import { TextStyle } from 'react-native';
@@ -18,7 +17,6 @@ const AboutLayout: React.FC = () => {
     [],
   );
 
-  return <Redirect href={'lottie'} />;
   return (
     <SafeAreaView className="flex-1 bg-white items-center p-4">
       <GradientBorderView>
