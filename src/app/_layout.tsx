@@ -65,12 +65,13 @@ const Layout: React.FC = () => {
     <GestureHandlerRootView>
       <PaperProvider theme={theme}>
         <SafeAreaProvider>
-          <Drawer screenOptions={drawerScreenOption} drawerContent={CustomDrawerContent}>
+          <Drawer initialRouteName="lottie" screenOptions={drawerScreenOption} drawerContent={CustomDrawerContent}>
             <Drawer.Screen name="index" options={{ title: 'About Project', drawerLabel: 'About' }} />
             <Drawer.Screen name="home" options={{ swipeEnabled: false }} />
             <Drawer.Screen name="progress" options={{ title: 'Progress Indicator', drawerLabel: 'Progress Indicator' }} />
             <Drawer.Screen name="scroll" options={{ title: 'Aniamtion Header', drawerLabel: 'Aniamtion Header' }} />
             <Drawer.Screen name="carousel" options={{ title: 'Carousel', drawerLabel: 'Carousel' }} />
+            <Drawer.Screen name="lottie" options={{ title: 'Lottie', drawerLabel: 'Lottie' }} />
           </Drawer>
         </SafeAreaProvider>
       </PaperProvider>

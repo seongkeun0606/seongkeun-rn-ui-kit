@@ -7862,6 +7862,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lottie-react-native@npm:^7.2.2":
+  version: 7.2.2
+  resolution: "lottie-react-native@npm:7.2.2"
+  peerDependencies:
+    "@lottiefiles/dotlottie-react": ^0.6.5
+    react: "*"
+    react-native: ">=0.46"
+    react-native-windows: ">=0.63.x"
+  peerDependenciesMeta:
+    "@lottiefiles/dotlottie-react":
+      optional: true
+    react-native-windows:
+      optional: true
+  checksum: bfe9e14d5edeb5271b213478d9292b4ba63ba00a86eef1ab1cb9d914003fba0c31c4bcdc039ff8ba1da5c0ee0ebf4efe68079fb2fb0e4a272153202c8a886d57
+  languageName: node
+  linkType: hard
+
 "lru-cache@npm:^10.0.1, lru-cache@npm:^10.2.0":
   version: 10.4.3
   resolution: "lru-cache@npm:10.4.3"
@@ -10386,6 +10403,7 @@ __metadata:
     expo-splash-screen: ~0.29.22
     expo-status-bar: ~2.0.1
     globals: ^15.14.0
+    lottie-react-native: ^7.2.2
     nativewind: 2.0.11
     prettier: ^3.1.0
     prettier-eslint: ^16.1.2
